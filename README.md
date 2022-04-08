@@ -1,10 +1,9 @@
 # TestLuaSwift
-# Nella ContentView bisogna inseririre questo codice:
+Nella ContentView bisogna inseririre questo codice:
 
 
                              
-  let filename = Bundle.main.path(forResource: "script",
-                                  ofType: "lua")!
+  let filename = Bundle.main.path(forResource: "script",ofType: "lua")!
   do {
 
       let lua = Lua()
