@@ -3,8 +3,8 @@ Nella ContentView bisogna inseririre questo codice:
 
 
                              
-  let filename = Bundle.main.path(forResource: "script",ofType: "lua")!
-  do {
+      let filename = Bundle.main.path(forResource: "script",ofType: "lua")!
+      do {
 
       let lua = Lua()
 
@@ -17,6 +17,6 @@ Nella ContentView bisogna inseririre questo codice:
 
       lua.destruct()
 
-  } catch let error {
+       } catch let error {
       print("can not read file", filename, error)
-  }
+      }
