@@ -1,7 +1,5 @@
 # TestLuaSwift
-Test effettuato con Lua in XCode
-
-Nella ContentView bisogna inseririre questo codice:
+# Nella ContentView bisogna inseririre questo codice:
 
 
                              
