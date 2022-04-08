@@ -20,3 +20,6 @@ Nella ContentView bisogna inseririre questo codice:
        } catch let error {
       print("can not read file", filename, error)
       }
+
+
+il codice non fa altro che richiamare e cercare di eseguire il file script.lua
