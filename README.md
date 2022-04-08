@@ -1,5 +1,5 @@
 # TestLuaSwift
-Nella ContentView bisogna inseririre questo codice:
+Nella ContentView, all'interno di un bottone, bisogna inseririre questo codice:
 
 
                              
